@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background-color: #FDFDFE;
+    --primary-color:#57D7FB;
+    --cards-color: #F7F8FA;
+    --secondary-color:#F97068;
+}
+
+.background-color {
+    background-color: var(--background-color);
+}
+.primary-text-color{
+    color: var(--primary-color);
+}
+.primary-background-color{
+    background-color: var(--primary-color);
+}
+.card-background-color{
+    background-color: var(--cards-color);
+}
+
+.secondary-background-color{
+    background-color: var(--secondary-color);
+}
